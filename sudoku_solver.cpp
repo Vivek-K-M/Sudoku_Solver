@@ -124,8 +124,8 @@ bool sudoku::sudoku_solver() {   //solve the sudoku using backtracking.
 
 int main()
 {
-	sudoku obj;        					//create a sudoku object.
-	obj.input();                        //accept the sudoku grid from the user.
+    sudoku obj;        					//create a sudoku object.
+    obj.input();                        //accept the sudoku grid from the user.
     if(obj.sudoku_solver())				//solve the sudoku.
     	obj.print_sudoku();
 
